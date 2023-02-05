@@ -15,10 +15,10 @@ elif size == "M": #M changes the bill to $20
 elif size == "L": #L changes the bill to $25
     bill = large 
 else: 
-    #while size == "": 
-    print('Invalid Selection. Please choose "S", "M", or "L".')
-        #if size == "S" or "M" or "L": 
-            #break 
+    while size == "": 
+        print('Invalid Selection. Please choose "S", "M", or "L".')
+        if size == "S" or "M" or "L": 
+            break 
     #This prevents the code from breaking if the user 
     #selects an input other than "S", "M", or "L"
 if add_pepperoni == "Y": #Y adds $2 to the bill
