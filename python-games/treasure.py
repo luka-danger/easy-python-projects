@@ -24,18 +24,18 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 print("You will use (L) and (R) to make your decisions. ")
 print("You begin your journey by walking uphill on a path. \
-After walking half a mile, you reach in a fork in the road. On the left \
+After walking half a mile, you reach a fork in the road. On the left \
 is a dark forest, on the right is a gentle meadow.")
 fork = input("Do you choose Left(L) or Right(R)?: \n")
 if fork.casefold() == "l":
-  print("You chose to enter the dark forest. After following a faint, winding path\
-you approach another choice. On the right, there is a rope bridge\
-crossing a steep cliff. Your other choice is to stay left and\
+  print("You chose to enter the dark forest. After following a faint, winding path \
+you approach another choice. On the right, there is a rope bridge \
+crossing a steep cliff. Your other choice is to stay left and \
 continue the path.")
   bridge = input("Do you choose Left(L) or Right(R)?: \n")
   if bridge.casefold() == "r":
     print("You chose to cross the rope bridge. It swings back and forth in \
-the wind, but is surprising stable and you make it across safely. Shortly after the\
+the wind, but is surprising stable and you make it across safely. Shortly after the \
 bridge, you approach a dark, ominous cave. It looks pretty dangerous.")
     cave = input("Do you choose Left(L) to turn around or Right(R) to go into the cave?: \n")
     if cave.casefold() == "r":
