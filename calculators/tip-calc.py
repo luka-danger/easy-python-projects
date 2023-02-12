@@ -6,5 +6,6 @@ split = float(input("How many people to split the bill? "))
 percent = (0.01 * float(tip)) + 1 
 total = round((bill * percent) / split , 2) 
 total_tip = (total - bill)
+format_total_tip = float(total_tip)
 
-print(f'Each person should tip ${total_tip}, for a total of ${total}')
+print(f'Each person should tip ${format_total_tip}, for a total of ${total}')
