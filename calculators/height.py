@@ -20,9 +20,9 @@ total = 0
 for i in student_heights:
     heights_in_list+=1 
 #Finds the sum of all heights added together (Line 4)
-count = sum(student_heights)
+sum_of_heights = sum(student_heights)
 #Divides the sum of all heights by the number of heights in list (Line 5)
-average_height = count / heights_in_list
+average_height = sum_of_heights / heights_in_list
 #Prints the average height (Line 6)
 #Use round() to get an integer 
 print(round(average_height)) 
